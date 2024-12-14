@@ -6,6 +6,7 @@ function isEnoughCapacity(products, containerSize) {
   return totalSize <= containerSize ? true : false; // перевіряємо чи почітиться об'єм продуктів в контейнер
 }
 
+
 console.log(
     isEnoughCapacity({ apples: 2, grapes: 3, carrots: 1 }, 8)
   ); // true
